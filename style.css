@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "RobotoBlack";
+    src: url(Fonts/Roboto-Black.ttf) format(truetype);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBLL' format(truetype);
+    src: url(Fonts/Roboto-LightItalic.ttf);
+    font-weight: italic;
+}
+
+@font-face {
+    font-family: 'RobotoBlack' format(truetype);
+    src: url(/onts/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+/*all above is font */
+
+/*text*/
+* {
+    font-family: 'RobotoBlack', sans-serif;
+    color: red;
+}
+
+/*colors*/
+.navbar, footer, .headerbox {
+    background-color: #1f2937;
+
+}
+.mainbox {
+  background-color: white;
+}
+
+.quotebox {
+    background-color: #e5e7eb;
+}
+
+.asidebox{
+    background-color: #3882f6;
+}
+
+.b {
+    background-color: white;
+}
+/* nav toolbar*/
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    height: 5vh;
+    
+}
+.nav {
+  flex: 1;
+}
+
+.logo {
+    flex: 4;
+    align-content: space-around;
+    text-align: center;
+}
+
+
+/*below all boxes*/
+
+/* header and header box */
+
+.headerbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    height: 22.5vh;
+}
+.text{
+    flex: 1;
+    width: 35%;
+}
+.img {
+    flex: 1;
+    width: 35%;
+    
+    
+}
+/*main and mainbox*/
+
+.mainbox {
+    display: flex;
+    flex-direction: row;
+    height: 22.5vh;
+    justify-content: space-around;
+
+}
+
+.b1 {
+    flex: 1;
+    border: 10px solid rgba(0, 0, 0, 3);
+    border-radius: 5px;
+   
+}
+
+.b2 { 
+    flex: 1;
+    border: 10px solid rgba(0, 0, 0, 3);
+    border-radius: 5px;
+}
+
+.b3 {
+    flex: 1;
+    border: 10px solid rgba(0, 0, 0, 3);
+    border-radius: 5px;
+}
+
+.b4 {
+    flex: 1;
+    border: 10px solid rgba(0, 0, 0, 3);
+    border-radius: 5px;
+}
+
+/*quotebox*/
+
+.quotebox {
+    height: 22.5vh;
+    width: 100%;
+
+}
+
+/* asdiebox */
+
+.asidebox {
+    flex-direction: column;
+    height: 20vh;
+    border: 100px solid white ;
+
+}
+
+/*footer*/
+footer {
+    font-size: 18px;
+    text-align: center;
+    height: 7.5vh;
+}
