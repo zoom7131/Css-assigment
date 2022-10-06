@@ -17,6 +17,10 @@
 }
 
 /*all above is font */
+/*margin*/
+body, blockquote{
+    margin: 0;
+}
 
 
 /*text*/
