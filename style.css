@@ -73,6 +73,13 @@
     justify-content: center;
     gap: 150px;
 }
+.img{
+    align-self: auto;
+}
+.texth{
+    align-self: auto;
+
+}
 /*main and mainbox*/
 
 .mainbox {
