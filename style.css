@@ -18,6 +18,12 @@
 
 /*all above is font */
 
+/* margin zero*/
+body, blockquote {
+    margin: 0;
+  }
+  
+
 /*text*/
 * {
     font-family: 'RobotoBlack', sans-serif;
@@ -48,17 +54,16 @@
 
 .navbar {
     display: flex;
-    flex-wrap: wrap;
     height: 5vh;
     
 }
 .nav {
-  flex: 1;
+    flex: 1;
+    border: 1px solid red;
 }
 
 .logo {
     flex: 4;
-    align-content: space-around;
     text-align: center;
 }
 
@@ -69,19 +74,16 @@
 
 .headerbox {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
     height: 22.5vh;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
 }
-.text{
-    flex: 1;
-    width: 35%;
+.texth {
+    border: 1px solid red;
 }
 .img {
-    flex: 1;
-    width: 35%;
-    
+    border: 1px solid red;
     
 }
 /*main and mainbox*/
@@ -90,50 +92,53 @@
     display: flex;
     flex-direction: row;
     height: 22.5vh;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 
 }
 
+.b {
+    width: 100px;
+    height: 100px;
+}
+
 .b1 {
-    flex: 1;
-    border: 10px solid rgba(0, 0, 0, 3);
+    border: 1px solid rgba(0, 0, 0, 3);
     border-radius: 5px;
    
 }
 
 .b2 { 
-    flex: 1;
-    border: 10px solid rgba(0, 0, 0, 3);
+    border: 1px solid rgba(0, 0, 0, 3);
     border-radius: 5px;
 }
 
 .b3 {
-    flex: 1;
-    border: 10px solid rgba(0, 0, 0, 3);
+    border: 1px solid rgba(0, 0, 0, 3);
     border-radius: 5px;
 }
 
 .b4 {
-    flex: 1;
-    border: 10px solid rgba(0, 0, 0, 3);
+    border: 1px solid rgba(0, 0, 0, 3);
     border-radius: 5px;
 }
 
 /*quotebox*/
 
 .quotebox {
-    height: 22.5vh;
+    height: 27.5vh;
     width: 100%;
-
 }
 
 /* asdiebox */
 
 .asidebox {
-    flex-direction: column;
-    height: 20vh;
-    border: 100px solid white ;
-
+    flex-direction: row;
+    height: 15vh;
+    border-radius: 5px;
+    margin-block: 100px;
+    margin-inline: 100px;
 }
 
 /*footer*/
