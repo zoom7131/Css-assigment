@@ -1,0 +1,211 @@
+@font-face {
+    font-family: "RobotoBlack";
+    src: url(./Fonts/Roboto-Black.ttf) format(truetype);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBLL' format(truetype);
+    src: url(./Fonts/Roboto-LightItalic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RobotoBlack' format(truetype);
+    src: url(./Fonts/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+/*all above is font */
+
+/* HTML style */
+
+*{
+    font-family: "RobotoBlack", sans-serif; 
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+ h2 {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-style: normal;
+}
+h3{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    text-align: center;
+}
+.mainbox p{
+    color: #1f2937;
+}
+
+.nav{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-style: normal;
+}
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-style: normal;
+}
+
+blockquote{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    text-align: center;
+}
+
+
+/*margin*/
+body, blockquote{
+    margin: 0;
+}
+.b p {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+/*colors*/
+.navbar, footer, .headerbox {
+    background-color: #1f2937;
+
+}
+.mainbox {
+  background-color: white;
+}
+
+.quotebox {
+    background-color: #e5e7eb;
+}
+
+.asidebox{
+    background-color: #3882f6;
+}
+
+.b {
+    background-color: white;
+}
+/*Below all boxes*/
+
+/* nav toolbar*/
+
+.navbar {
+    display: flex;
+    height: 5vh;
+    
+}
+.nav {
+    flex: 1;
+}
+
+.logo {
+    flex: 4;
+    text-align: center;
+}
+
+
+/* header and header box */
+
+.headerbox {
+    display: flex;
+    height: 22.5vh;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.img{
+    align-self: auto;
+}
+.texth{
+    align-self: auto;
+
+}
+/*main and mainbox*/
+
+.mainbox {
+    display: flex;
+    flex-direction: row;
+    height: 22.5vh;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.b {
+    width: 100px;
+    height: 100px;
+}
+
+.b1 {
+    border: 1px solid;
+    border-radius: 5px;
+    color: #3882f6;
+   
+}
+
+.b2 { 
+    border: 1px solid;
+    border-radius: 5px;
+    color: #3882f6;
+}
+
+.b3 {
+    border: 1px solid;
+    border-radius: 5px;
+    color: #3882f6;
+}
+
+.b4 {
+    border: 1px solid;
+    border-radius: 5px;
+    color: #3882f6;
+}
+
+/*quotebox*/
+
+.quotebox {
+    height: 27.5vh;
+    width: 100%;
+}
+
+/* asdiebox */
+
+.asidebox {
+    flex-direction: row;
+    height: 15vh;
+    border-radius: 5px;
+    margin-block: 100px;
+    margin-inline: 100px;
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    height: 7.5vh;
+}
+
+/*button*/
+
+#button1 {
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+#button2 {
+    background-color: #3882f6;
+    border: solid white;
+    border-radius: 5px;
+}
