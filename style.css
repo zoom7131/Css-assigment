@@ -1,33 +1,64 @@
 @font-face {
     font-family: "RobotoBlack";
-    src: url(Fonts/Roboto-Black.ttf) format(truetype);
-    font-weight: normal;
+    src: url(./Fonts/Roboto-Black.ttf) format(truetype);
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'RobotoBLL' format(truetype);
-    src: url(Fonts/Roboto-LightItalic.ttf);
-    font-weight: italic;
+    src: url(./Fonts/Roboto-LightItalic.ttf);
+    font-style: italic;
 }
 
 @font-face {
     font-family: 'RobotoBlack' format(truetype);
-    src: url(/onts/Roboto-Bold.ttf);
+    src: url(./Fonts/Roboto-Bold.ttf);
     font-weight: bold;
 }
 
 /*all above is font */
+
+/* HTML style */
+
+*{
+    font-family: RobotoBlack, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+ h2 {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-style: normal;
+}
+
+.nav{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-style: normal;
+}
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-style: normal;
+}
+
+blockquote{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+
 /*margin*/
 body, blockquote{
     margin: 0;
 }
 
-
-/*text*/
-* {
-    font-family: 'RobotoBlack', sans-serif;
-    color: red;
-}
 
 /*colors*/
 .navbar, footer, .headerbox {
@@ -49,6 +80,8 @@ body, blockquote{
 .b {
     background-color: white;
 }
+/*Below all boxes*/
+
 /* nav toolbar*/
 
 .navbar {
@@ -65,8 +98,6 @@ body, blockquote{
     text-align: center;
 }
 
-
-/*below all boxes*/
 
 /* header and header box */
 
@@ -149,4 +180,16 @@ footer {
 .b p {
     margin-top: 100px;
     text-align: center;
+}
+
+#button1 {
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+#button2 {
+    background-color: #3882f6;
+    border: solid white;
+    border-radius: 5px;
+    
 }
