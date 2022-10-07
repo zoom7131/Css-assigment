@@ -21,7 +21,7 @@
 /* HTML style */
 
 *{
-    font-family: RobotoBlack, sans-serif;
+    font-family: "RobotoBlack", sans-serif; 
 }
 
 h1 {
@@ -33,6 +33,15 @@ h1 {
     font-size: 18px;
     color: #E5E7EB;
     font-style: normal;
+}
+h3{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    text-align: center;
+}
+.mainbox p{
+    color: #1f2937;
 }
 
 .nav{
@@ -51,12 +60,17 @@ blockquote{
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
+    text-align: center;
 }
 
 
 /*margin*/
 body, blockquote{
     margin: 0;
+}
+.b p {
+    margin-top: 100px;
+    text-align: center;
 }
 
 
@@ -133,24 +147,28 @@ body, blockquote{
 }
 
 .b1 {
-    border: 1px solid rgba(0, 0, 0, 3);
+    border: 1px solid;
     border-radius: 5px;
+    color: #3882f6;
    
 }
 
 .b2 { 
-    border: 1px solid rgba(0, 0, 0, 3);
+    border: 1px solid;
     border-radius: 5px;
+    color: #3882f6;
 }
 
 .b3 {
-    border: 1px solid rgba(0, 0, 0, 3);
+    border: 1px solid;
     border-radius: 5px;
+    color: #3882f6;
 }
 
 .b4 {
-    border: 1px solid rgba(0, 0, 0, 3);
+    border: 1px solid;
     border-radius: 5px;
+    color: #3882f6;
 }
 
 /*quotebox*/
@@ -168,19 +186,18 @@ body, blockquote{
     border-radius: 5px;
     margin-block: 100px;
     margin-inline: 100px;
+    text-align: center;
 }
 
 /*footer*/
 footer {
     font-size: 18px;
+    color: white;
     text-align: center;
     height: 7.5vh;
 }
 
-.b p {
-    margin-top: 100px;
-    text-align: center;
-}
+/*button*/
 
 #button1 {
     background-color: #3882f6;
@@ -191,5 +208,4 @@ footer {
     background-color: #3882f6;
     border: solid white;
     border-radius: 5px;
-    
 }
